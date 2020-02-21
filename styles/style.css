@@ -1,10 +1,146 @@
-/**  ========================================================================== 
-
-This is where your custom styles begin. 
-
-==========================================================================  */
-
 
 .home {
-    
+	padding: 50px;
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 50px;
+  position: relative;
+}
+
+li a,b,c {
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+  text-decoration: none;
+  color: #000000;
+}
+
+li a:hover {
+  font-weight: 600;
+  color: #04B574;
+}
+
+li b:hover {
+  font-weight: 600;
+  color: #282099;
+}
+
+li c:hover {
+  font-weight: 600;
+  color: #E69BB9;
+}
+
+div {
+  height: 100%;
+}
+
+html, section, div {
+  height: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+.container {
+  display: table;
+  width: 100%;
+}
+
+.left-half {
+  background-color: #D1BDDC;
+  float: left;
+  width: 50%;
+}
+
+.right-half {
+  background-color: #39C17D;
+  float: right;
+  width: 50%;
+}
+
+.scrolling1 {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.example1 {
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+.example1 h3 {
+ font-size: 20px;
+ color: #F21B10;
+ background: #F2ADCA;
+ width: 100%;
+ height: 2%;
+ padding: 5px 10px;
+ margin: 0 0 10px 0;
+ line-height: 15px;
+ text-align: left;
+
+font-family: ivymode, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   {
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%);
+ }
+}
+
+.testimage {
+  position: relative;
+  left: 70px;
+  top: 10px;
+}
+
+.toprightnavigation {
+  float: right;
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+  top:10px;
+  left: 10px;
 }
