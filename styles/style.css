@@ -1,4 +1,8 @@
 
+body {
+	background-color: #F5F3EC;
+}
+
 .home {
 	padding: 50px;
   font-family: aktiv-grotesk-extended, sans-serif;
@@ -7,36 +11,87 @@
   font-size: 10px;
 }
 
+.spinicon {
+	font-family: ohno-blazeface, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #04B574;
+	font-size: 29px;
+	position: absolute;
+	top: 29px;
+	left: 280px;
+}
+
+.ReachOut {
+	font-size: 14px;
+	font-family: ivymode, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	border-radius: 80%;
+	background-color: #ffffff00;
+	border-color: #000000;
+	padding: 10px;
+	position: absolute;
+	top: 52px;
+	left: 1280px;
+}
+
+#rectangle-for-animation {
+	width: 2%;
+	height: 100%;
+	background: #F0B4CD;
+	position: absolute;
+	top: 100px;
+	bottom:100px;
+	left: 705px;
+	right:50px;
+	overflow: hidden;
+}
+
+.infinatescroll {
+	font-size: 20px;
+	color: #F21B10;
+	font-family: ivymode, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 50%;
+	text-align: center;
+	writing-mode: vertical-lr;
+	text-orientation: mixed;
+
+}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 50px;
-  position: relative;
+  position: absolute;
+	top: 350px;
+	left: 80px;
 }
 
 li a,b,c {
   font-family: aktiv-grotesk-extended, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 25px;
+  font-size: 18px;
   text-decoration: none;
   color: #000000;
 }
 
 li a:hover {
   font-weight: 600;
-  color: #04B574;
+  color: #F5F3EC;
 }
 
 li b:hover {
   font-weight: 600;
-  color: #282099;
+  color: #F5F3EC;
 }
 
 li c:hover {
   font-weight: 600;
-  color: #E69BB9;
+  color: #F5F3EC;
 }
 
 div {
@@ -74,61 +129,12 @@ section {
   position: relative;
 }
 
-.example1 {
-  position: absolute;
-  transform: rotate(90deg);
-}
 
-.example1 h3 {
- font-size: 20px;
- color: #F21B10;
- background: #F2ADCA;
- width: 100%;
- height: 2%;
- padding: 5px 10px;
- margin: 0 0 10px 0;
- line-height: 15px;
- text-align: left;
-
-font-family: ivymode, sans-serif;
-font-weight: 400;
-font-style: normal;
-
- /* Starting position */
- -moz-transform:translateX(100%);
- -webkit-transform:translateX(100%);
- transform:translateX(100%);
- /* Apply animation to this element */
- -moz-animation: example1 15s linear infinite;
- -webkit-animation: example1 15s linear infinite;
- animation: example1 15s linear infinite;
-}
-/* Move it (define the animation) */
-@-moz-keyframes example1 {
- 0%   { -moz-transform: translateX(100%); }
- 100% { -moz-transform: translateX(-100%); }
-}
-@-webkit-keyframes example1 {
- 0%   { -webkit-transform: translateX(100%); }
- 100% { -webkit-transform: translateX(-100%); }
-}
-@keyframes example1 {
- 0%   {
- -moz-transform: translateX(100%); /* Firefox bug fix */
- -webkit-transform: translateX(100%); /* Firefox bug fix */
- transform: translateX(100%);
- }
- 100% {
- -moz-transform: translateX(-100%); /* Firefox bug fix */
- -webkit-transform: translateX(-100%); /* Firefox bug fix */
- transform: translateX(-100%);
- }
-}
 
 .testimage {
-  position: relative;
-  left: 70px;
-  top: 10px;
+  position: absolute;
+  left: 700px;
+  top: 1000px;
 }
 
 .toprightnavigation {
