@@ -1,0 +1,53 @@
+body{
+  font-family: narly, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  color: #E13332;
+}
+
+.albums{
+  background-color: #000000;
+  width: 100%;
+  min-height: 100%;
+  padding: 50px;
+  position: relative;
+  padding-bottom: 150px;
+
+}
+
+.container {
+  width: 100%;
+  max-width: 80%;
+  height: 100%;
+  background-color: black;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+
+}
+
+.flex-image{
+  width: 100%
+  height: auto;
+  width: 400px;
+  align-self: center;
+  padding: 20px;
+}
+
+h1{
+  position: absolute;
+  top: 4px;
+  left: 380px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 800px) {
+    .container{ background: black; }
+}

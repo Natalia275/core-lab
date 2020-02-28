@@ -1,0 +1,639 @@
+body{
+  background-color: #000000;
+}
+
+button {
+  position: absolute;
+  top: 150px;
+  left: 1100px;
+  transform: translate(-50%,-50%);
+  padding: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  font-family: ohno-blazeface, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #ED3E9F, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.3px transparent;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+}
+
+h24 {
+  font-size: 10px;
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: absolute;
+  top: 150px;
+  left: 1120px;
+
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.3px transparent;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+}
+
+h1{
+    background: linear-gradient(90deg, #F7F3E0, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px transparent;
+    background-size: 1300% 1300%;
+    animation: Gradient 7s ease-in infinite;
+
+      font-family: eckmannpsych-medium, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 40px;
+      position: absolute;
+      top: 100px;
+      left:150px;
+      padding: 0 50px;
+}
+
+
+h2{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px transparent;
+  background-size: 2000% 2000%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+    padding: 50px;
+    position: absolute;
+    top: 230px;
+    left:650px;
+}
+
+ h3{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px transparent;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  position: absolute;
+  top: 380px;
+  left: 50px;
+  padding: 50px;
+}
+
+h4{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px #F5CA54;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+    padding: 50px;
+    position: absolute;
+    top: 510px;
+    left:650px;
+    text-align:right;
+
+}
+
+h5{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px #F5CA54;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+    color: #F7F3E0;
+    font-family: eckmannpsych-medium, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    padding: 50px;
+    position: absolute;
+    top: 540px;
+    left:650px;
+}
+
+h6{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px transparent;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  padding: 50px;
+  position: absolute;
+  top: 670px;
+  left: 90px;
+  text-align: right;
+}
+
+.DRIFTING {
+  font-size: 49px;
+}
+em {
+  font-size: 60px;
+  -webkit-text-stroke: 0.5px #F5CA54;
+}
+
+h7{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px transparent;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+    font-family: eckmannpsych-medium, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 50px;
+    position: absolute;
+    top: 920px;
+    left:650px;
+}
+
+h8{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px transparent;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+    padding: 50px;
+    position: absolute;
+    top: 970px;
+    left:650px;
+
+}
+
+h9{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.75px #9174B2;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+    font-family: eckmannpsych-medium, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    padding: 50px;
+    letter-spacing: 25px;
+    position: absolute;
+    top: 1150px;
+    left:200px;
+}
+
+h10{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px transparent;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  padding: 50px;
+  position: absolute;
+  top: 1360px;
+  left:40px;
+}
+
+h11{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke:  0.5px #F5CA54;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+    padding: 50px;
+    position: absolute;
+    top: 1500px;
+    left:650px;
+    text-align: right;
+}
+
+h12{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke:  0.5px #F5CA54;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+    padding: 50px;
+    position: absolute;
+    top: 1545px;
+    left:650px;
+    text-align: right;
+}
+
+h13 {
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px transparent;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+    font-family: eckmannpsych-medium, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 50px;
+    position: absolute;
+    top: 1700px;
+    left:100px;
+}
+
+h14{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px transparent;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+    padding: 50px;
+    position: absolute;
+    top: 1850px;
+    left:650px;
+    text-align: right;
+}
+
+h15{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px transparent;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  letter-spacing: 1px;
+    padding: 50px;
+    position: absolute;
+    top: 1980px;
+    left:100px;
+}
+
+.CANYONCALLING{
+  letter-spacing: 12px;
+  font-size: 40px;
+
+}
+
+
+h16{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px transparent;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+    padding: 50px;
+    position: absolute;
+    top: 2140px;
+    left:650px;
+}
+
+h17{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px transparent;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+    padding: 50px;
+    position: absolute;
+    top: 2300px;
+    left:200px;
+}
+
+h18{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px transparent;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+    padding: 50px;
+    position: absolute;
+    top: 2510px;
+    left:650px;
+}
+
+h19{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #04B574;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+    padding: 50px;
+    letter-spacing: 15px;
+    position: absolute;
+    top: 2700px;
+    left:450px;
+}
+
+h20{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px transparent;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+    padding: 50px;
+    position: absolute;
+    top: 2860px;
+    left:220px;
+}
+
+h21 {
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px #F5CA54;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+    padding: 50px;
+    position: absolute;
+    top: 3020px;
+    left:650px;
+}
+
+h22{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px #F5CA54;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+    padding: 50px;
+    position: absolute;
+    top: 3060px;
+    left:650px;
+}
+
+h23{
+  background: linear-gradient(90deg, #F7F3E0, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px transparent;
+  background-size: 1300% 1300%;
+  animation: Gradient 7s ease-in infinite;
+  font-size: 15px;
+
+  padding-bottom: 100px;
+  font-style: normal;
+  position: absolute;
+  top:3370px;
+  left:525px;
+
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+.BEACHHOUSE {
+  background: linear-gradient(90deg, #F7F3E0, #ED3E9F, #04B574, #00A1E4 #000000);
+  font-family: eckmannpsych-medium, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+@keyframes Gradient{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+
+
+.swirl1{
+font-family: ohno-blazeface, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #E13332;
+font-size: 40px;
+position: absolute;
+top:650px;
+left:350px;
+
+}
+
+.swirl2{
+font-family: ohno-blazeface, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #00A1E4;
+font-size: 40px;
+position: absolute;
+top:40px;
+left:100px;
+}
+
+.swirl3 {
+font-family: ohno-blazeface, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #04B574;
+font-size: 40px;
+position: absolute;
+top:400px;
+left:900px;
+}
+
+.swirl4 {
+font-family: ohno-blazeface, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #FBCC00;
+font-size: 40px;
+position: absolute;
+top:900px;
+left:1270px;
+}
+
+.swirl5 {
+font-family: ohno-blazeface, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #F9A397;
+font-size: 40px;
+position: absolute;
+top:1080px;
+left:170px;
+}
+
+.swirl6 {
+font-family: ohno-blazeface, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #04B574;
+font-size: 40px;
+position: absolute;
+top:1400px;
+left:1100px;
+}
+
+.swirl7 {
+font-family: ohno-blazeface, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #00A1E4;
+font-size: 40px;
+position: absolute;
+top:2160px;
+left:200px;
+}
+
+.swirl8 {
+font-family: ohno-blazeface, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #79AE02;
+font-size: 40px;
+position: absolute;
+top:2400px;
+left:1250px;
+}
+
+.swirl9 {
+font-family: ohno-blazeface, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #ED3E9F;
+font-size: 40px;
+position: absolute;
+top:1850px;
+left:300px;
+}
+
+.swirl10 {
+font-family: ohno-blazeface, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #00A1E4;
+font-size: 40px;
+position: absolute;
+top:2900px;
+left:970px;
+}
+
+.swirl11 {
+font-family: ohno-blazeface, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #F9A397;
+font-size: 40px;
+position: absolute;
+top:2555px;
+left:370px;
+}
+
+
+
+
+path {
+  fill: transparent;
+}
