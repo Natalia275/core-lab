@@ -1,0 +1,233 @@
+
+body{
+  background-image: url(../assets/fricksmooth.png);
+  margin: 15px;
+}
+
+h1{
+font-family: orpheuspro, serif;
+font-weight: 300;
+font-style: italic;
+font-size: 115px;
+position: absolute;
+top: 270px;
+left: 290px;
+}
+
+h2{
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10px;
+  position:absolute;
+  left: 30px;
+  top:20px;
+}
+
+h3{
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10px;
+  position:absolute;
+  left: 1300px;
+  top:20px;
+}
+
+h4{
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10px;
+  position:absolute;
+  left: 1300px;
+  top:30px;
+}
+
+h5{
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 10px;
+  position:absolute;
+  left: 1300px;
+  top:900px;
+}
+
+h6{
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 10px;
+  position:absolute;
+  left: 1290px;
+  top:750px;
+}
+
+h7{
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 10px;
+  position:absolute;
+  left: 25px;
+  top: 780px;
+}
+
+.entryway {
+  position: absolute;
+  top: 1000px;
+  left: 230px;
+  width: 900px;
+  height: auto;
+}
+
+.entryway2{
+  position: absolute;
+  top: 1700px;
+  left: 230px;
+  width: 900px;
+  height: auto;
+}
+
+.entryway3{
+  position: absolute;
+  top: 2600px;
+  left: 230px;
+  width: 900px;
+  height: auto;
+}
+
+.MapPart1{
+  position: absolute;
+  top: 3550px;
+  left: 180px;
+  width: 1000px;
+  height: auto;
+}
+
+.img1 {
+  height: 500px;
+  width: auto;
+  position: absolute;
+  top: 3780px;
+  left: 160px;
+}
+
+.ex4{
+  font-family: orpheuspro, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 80px;
+  position: absolute;
+  top: 3990px;
+  left: 650px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.ex4:hover,a.ex4:active {
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.MapPart2{
+  position: absolute;
+  top: 4470px;
+  left: 280px;
+  width: 1000px;
+  height: auto;
+}
+
+.img2 {
+  height: 500px;
+  width: auto;
+  position: absolute;
+  top: 4460px;
+  left: 820px;
+}
+
+.ex5{
+  font-family: orpheuspro, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 80px;
+  position: absolute;
+  top: 1700px;
+  left: 420px;
+  color: black;
+  text-decoration: none;
+}
+
+a.ex5:hover,a.ex5:active {
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.MapPart3{
+  position: absolute;
+  top: 5150px;
+  left: 180px;
+  width: 1100px;
+  height: auto;
+}
+
+.img3 {
+  height: 370px;
+  width: auto;
+  position: absolute;
+  top: 5170px;
+  left: 140px;
+}
+
+.ex6{
+  font-family: orpheuspro, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 80px;
+  position: absolute;
+  top: 2110px;
+  left: 700px;
+  color: black;
+  text-decoration: none;
+}
+
+a.ex6:hover,a.ex6:active {
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.MapPart4{
+  position: absolute;
+  top: 5640px;
+  left: 380px;
+  width: 880px;
+  height: auto;
+}
+
+.img4 {
+  height: 560px;
+  width: auto;
+  position: absolute;
+  top: 5630px;
+  left: 774px;
+}
+
+.MapPart5{
+  position: absolute;
+  top: 6450px;
+  left: 180px;
+  width: 1100px;
+  height: auto;
+  bottom-: 50px;
+}

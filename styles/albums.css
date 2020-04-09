@@ -33,7 +33,7 @@ body{
 }
 
 .flex-image{
-  width: 100%
+  width: 100%;
   height: auto;
   width: 400px;
   align-self: center;

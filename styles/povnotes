@@ -1,0 +1,145 @@
+//HTML NOTES//
+<div class="rectangle"></div>
+<div class="rectangle2"></div>
+<div class="rectangle3"></div>
+<img class="img1"src="../assets/room1.jpg"></img>
+<img class="img2"src="../assets/room2.jpg"></img>
+<img class="img3"src="../assets/room3.jpg"></img>
+<img class="img4"src="../assets/room4.jpg"></img>
+
+
+
+<p><a class="ex4" href="default.asp">Fraggonard Room</a></p>
+<p><a class="ex5" href="default.asp">West Gallery</a></p>
+<p><a class="ex6" href="default.asp">Library</a></p>
+
+
+//CSS NOTES//
+
+
+.img1 {
+  height: 460px;
+  width: auto;
+  position: absolute;
+  top: 900px;
+  left: 180px;
+}
+
+.rectangle {
+  width: 400px;
+  height:460px;
+  background: #1AA079;
+  position: absolute;
+  left: 200px;
+  top: 920px;
+  border: 1px solid #000000;
+}
+
+.ex4{
+  font-family: orpheuspro, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 80px;
+  position: absolute;
+  top: 1300px;
+  left: 620px;
+  color: black;
+  text-decoration: none;
+}
+
+a.ex4:hover,a.ex4:active {
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.img2 {
+  height: 460px;
+  width: auto;
+  position: absolute;
+  top: 1500px;
+  left: 870px;
+}
+
+.rectangle2 {
+  width: 400px;
+  height:460px;
+  background: #F7D4C8;
+  position: absolute;
+  left: 900px;
+  top: 1530px;
+  border: 1px solid #000000;
+}
+
+.ex5{
+  font-family: orpheuspro, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 80px;
+  position: absolute;
+  top: 1700px;
+  left: 420px;
+  color: black;
+  text-decoration: none;
+}
+
+a.ex5:hover,a.ex5:active {
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.img3 {
+  height: 300px;
+  width: auto;
+  position: absolute;
+  top: 2500px;
+  left: 850px;
+}
+
+.rectangle3 {
+  width: 400px;
+  height:460px;
+  background: #275E7F;
+  position: absolute;
+  left: 220px;
+  top: 2030px;
+  border: 1px solid #000000;
+}
+
+.ex6{
+  font-family: orpheuspro, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 80px;
+  position: absolute;
+  top: 2110px;
+  left: 700px;
+  color: black;
+  text-decoration: none;
+}
+
+a.ex6:hover,a.ex6:active {
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.img4 {
+  height: 500px;
+  width: auto;
+  position: absolute;
+  top: 2000px;
+  left: 180px;
+}
+
+.firstarrow {
+  width: 50px;
+  height: 150px;
+}
