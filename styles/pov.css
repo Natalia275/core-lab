@@ -1,10 +1,132 @@
 
 body{
-  background-image: url(../assets/fricksmooth.png);
+  background-image: url(../assets/fricksmooth2.png);
   margin: 15px;
+  border: 4px double #000000;
+  height: 8600px;
 }
 
-h1{
+.welcome{
+  width: 170px;
+  height: auto;
+  position: absolute;
+  top: 30px;
+  left: 625px;
+}
+
+.star{
+  width: 30px;
+  height: auto;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+}
+
+#icon1{
+  width: 85px;
+  height: auto;
+  position: absolute;
+  top: 200px;
+  left: 180px;
+  cursor: pointer;
+}
+
+.popup-position{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(245,243,236,0.7) ;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.popup-position2{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(245,243,236,0.7) ;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#popup-wrapper{
+  width: 500px;
+  margin: 70px auto;
+  text-align: left;
+}
+
+#popup-container{
+  background-color: #F5F3EC;
+  border: 1px solid black;
+  padding: 50px;
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 250;
+  font-style: regular;
+  font-size: 10px;
+  position: absolute;
+  top: 280px;
+  left: 360px;
+  width: 600px;
+  height: auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#popup-container2{
+  background-color: #F2C97D;
+  border: 1px solid black;
+  padding: 30px;
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 250;
+  font-style: regular;
+  font-size: 10px;
+  position: absolute;
+  top: 280px;
+  left: 370px;
+  width: 600px;
+  height: auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+h3{
+    text-align: center;
+    font-family: titling-gothic-fb-extended, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+
+#clickclick{
+  font-family: orpheuspro, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15.5px;
+  position: absolute;
+  top: 600px;
+  right: 150px;
+  transform: rotate(-10deg);
+}
+
+#wrapper{
+  width: 960px;
+  margin: 40px auto;
+  text-align: left;
+}
+
+#icon2{
+  width: 80px;
+  height: auto;
+  position: absolute;
+  top: 600px;
+  right: 200px;
+  cursor: pointer;
+}
+
+
+.Title{
 font-family: orpheuspro, serif;
 font-weight: 300;
 font-style: italic;
@@ -14,104 +136,22 @@ top: 270px;
 left: 290px;
 }
 
-h2{
+.fancy{
   font-family: titling-gothic-fb-extended, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 10px;
+  font-size: 12px;
   position:absolute;
-  left: 30px;
-  top:20px;
-}
-
-h3{
-  font-family: titling-gothic-fb-extended, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 10px;
-  position:absolute;
-  left: 1300px;
-  top:20px;
-}
-
-h4{
-  font-family: titling-gothic-fb-extended, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 10px;
-  position:absolute;
-  left: 1300px;
-  top:30px;
-}
-
-h5{
-  font-family: titling-gothic-fb-extended, sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 10px;
-  position:absolute;
-  left: 1300px;
-  top:900px;
-}
-
-h6{
-  font-family: titling-gothic-fb-extended, sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 10px;
-  position:absolute;
-  left: 1290px;
-  top:750px;
-}
-
-h7{
-  font-family: titling-gothic-fb-extended, sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 10px;
-  position:absolute;
-  left: 25px;
-  top: 780px;
-}
-
-.entryway {
-  position: absolute;
-  top: 1000px;
-  left: 230px;
-  width: 900px;
-  height: auto;
-}
-
-.entryway2{
-  position: absolute;
-  top: 1700px;
-  left: 230px;
-  width: 900px;
-  height: auto;
-}
-
-.entryway3{
-  position: absolute;
-  top: 2600px;
-  left: 230px;
-  width: 900px;
-  height: auto;
+  left: 550px;
+  top: 750px;
 }
 
 .MapPart1{
   position: absolute;
-  top: 3550px;
-  left: 180px;
-  width: 1000px;
+  top: 850px;
+  left: 85px;
+  width: 1200px;
   height: auto;
-}
-
-.img1 {
-  height: 500px;
-  width: auto;
-  position: absolute;
-  top: 3780px;
-  left: 160px;
 }
 
 .ex4{
@@ -120,35 +160,19 @@ h7{
   font-style: italic;
   font-size: 80px;
   position: absolute;
-  top: 3990px;
-  left: 650px;
+  top: 1380px;
+  left: 760px;
   color: black;
   text-decoration: none;
-  cursor: pointer;
+  z-index: 5;
 }
 
-a.ex4:hover,a.ex4:active {
+a.ex4:hover,a.ex4:active{
   font-family: titling-gothic-fb-extended, sans-serif;
   font-weight: 200;
   font-style: normal;
   font-size: 40px;
   text-decoration: none;
-}
-
-.MapPart2{
-  position: absolute;
-  top: 4470px;
-  left: 280px;
-  width: 1000px;
-  height: auto;
-}
-
-.img2 {
-  height: 500px;
-  width: auto;
-  position: absolute;
-  top: 4460px;
-  left: 820px;
 }
 
 .ex5{
@@ -157,10 +181,11 @@ a.ex4:hover,a.ex4:active {
   font-style: italic;
   font-size: 80px;
   position: absolute;
-  top: 1700px;
-  left: 420px;
+  top: 2150px;
+  left: 100px;
   color: black;
   text-decoration: none;
+    z-index: 5;
 }
 
 a.ex5:hover,a.ex5:active {
@@ -171,20 +196,20 @@ a.ex5:hover,a.ex5:active {
   text-decoration: none;
 }
 
-.MapPart3{
+.Centerpiece1{
   position: absolute;
-  top: 5150px;
-  left: 180px;
-  width: 1100px;
+  top: 2900px;
+  left: 220px;
+  width: 900px;
   height: auto;
 }
 
-.img3 {
-  height: 370px;
-  width: auto;
+.WestGallery{
   position: absolute;
-  top: 5170px;
-  left: 140px;
+  top: 3640px;
+  left: 100px;
+  width: 1200px;
+  height: auto;
 }
 
 .ex6{
@@ -193,10 +218,11 @@ a.ex5:hover,a.ex5:active {
   font-style: italic;
   font-size: 80px;
   position: absolute;
-  top: 2110px;
-  left: 700px;
+  top: 4200px;
+  left: 800px;
   color: black;
   text-decoration: none;
+    z-index: 5;
 }
 
 a.ex6:hover,a.ex6:active {
@@ -207,27 +233,89 @@ a.ex6:hover,a.ex6:active {
   text-decoration: none;
 }
 
-.MapPart4{
+.TheLibrary{
   position: absolute;
-  top: 5640px;
-  left: 380px;
-  width: 880px;
+  top: 4700px;
+  left: 180px;
+  width: 1150px;
   height: auto;
 }
 
-.img4 {
-  height: 560px;
-  width: auto;
+.ex7{
+  font-family: orpheuspro, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 80px;
   position: absolute;
-  top: 5630px;
-  left: 774px;
+  top: 4900px;
+  left: 180px;
+  color: black;
+  text-decoration: none;
+    z-index: 5;
 }
 
-.MapPart5{
+a.ex7:hover,a.ex7:active {
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.Centerpiece2{
   position: absolute;
-  top: 6450px;
-  left: 180px;
+  top: 5600px;
+  left: 230px;
+  width: 900px;
+  height: auto;
+}
+
+.GardenCourt{
+  position: absolute;
+  top: 6290px;
+  left: 120px;
   width: 1100px;
   height: auto;
   bottom-: 50px;
+}
+
+.ex8{
+  font-family: orpheuspro, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 80px;
+  position: absolute;
+  top: 6840px;
+  left: 800px;
+  color: black;
+  text-decoration: none;
+    z-index: 5;
+}
+
+a.ex8:hover,a.ex8:active {
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.Centerpiece3{
+  position: absolute;
+  top: 7650px;
+  left: 230px;
+  width: 900px;
+  height: auto;
+}
+
+.Ending{
+  font-family: orpheuspro, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 40px;
+  position: absolute;
+  top: 8400px;
+  left: 590px;
+  color: black;
+  text-decoration: none;
 }

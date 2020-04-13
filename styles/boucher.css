@@ -1,0 +1,56 @@
+body{
+  background: #F5F3EC;
+  margin: 15px;
+  border: 4px double #000000;
+  height: 8600px;
+}
+
+.roomtitle{
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  position: absolute;
+  top: 48px;
+  left: 583px;
+}
+
+#oval{
+  width: 400px;
+  height: auto;
+  position: absolute;
+  top: 40px;
+  left: 500px;
+}
+
+#boucher1{
+  position: absolute;
+  top: 250px;
+  left: 180px;
+  width: 300px;
+  height: auto;
+}
+
+#boucher2{
+  position: absolute;
+  top: 300px;
+  right: 250px;
+  width: 300px;
+  height: auto;
+}
+
+#boucher3{
+  position: absolute;
+  top: 660px;
+  left: 540px;
+  width: 300px;
+  height: auto;
+}
+
+#boucher4{
+  position: absolute;
+  top: 300px;
+  left: 360px;
+  width: 250px;
+  height: auto;
+}

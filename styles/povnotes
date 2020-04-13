@@ -16,6 +16,12 @@
 
 //CSS NOTES//
 
+#icon1:hover {
+content: url('http://www.furrytalk.com/wp-content/uploads/2010/05/2.jpg');
+}
+
+background-color: rgba(246,211,200,0.5) ;
+
 
 .img1 {
   height: 460px;
