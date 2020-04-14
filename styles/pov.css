@@ -5,68 +5,14 @@ body {
   height: 8600px;
 }
 
-.welcomefade-in {
+.welcome {
   width: 170px;
   height: auto;
   position: absolute;
   top: 30px;
   left: 625px;
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
 }
 
-@keyframes welcomefade-in {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes welcomefade-in {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes welcomefade-in {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes welcomefade-in {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes welcomefade-in {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
 
 .star {
   width: 30px;
@@ -179,7 +125,7 @@ h3 {
   cursor: pointer;
 }
 
-.fade-in {
+.Title {
   font-family: orpheuspro, serif;
   font-weight: 300;
   font-style: italic;
@@ -187,64 +133,10 @@ h3 {
   position: absolute;
   top: 270px;
   left: 290px;
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
+
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.fancyfade-in {
+.fancy {
   font-family: titling-gothic-fb-extended, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -259,55 +151,6 @@ h3 {
   -ms-animation: fadeIn ease 5s;
 }
 
-@keyframes fancyfade-in {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fancyfade-in {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fancyfade-in {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fancyfade-in {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes fancyfade-in {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
 
 .MapPart1 {
   position: absolute;
@@ -520,7 +363,7 @@ html {
     border: none;
   }
 
-  .fade-in {
+  .Title {
     font-size: 83px;
     text-align: center;
     position: absolute;
@@ -558,7 +401,7 @@ html {
     transform: rotate(-10deg);
   }
 
-  .welcomefade-in {
+  .welcome {
     width: 150px;
     height: auto;
     position: absolute;
@@ -566,7 +409,7 @@ html {
     left: 180px;
   }
 
-  .fancyfade-in {
+  .fancy {
     font-family: titling-gothic-fb-extended, sans-serif;
     font-weight: 300;
     font-style: normal;

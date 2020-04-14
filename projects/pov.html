@@ -27,28 +27,28 @@
     var degrees = 0;
 
     function rotateAnimation(el, speed) {
-      var elem = document.getElementById(el);
-      if (navigator.userAgent.match("Chrome")) {
-        elem.style.WebkitTransform = "rotate(" + degrees + "deg)";
-      }
-      looper = setTimeout('rotateAnimation(\'' + el + '\',' + speed + ')', speed);
-      degrees++;
-      if (degrees > 359) {
-        degrees = 1;
-      }
-      document.getElementById("status").innerHTML = "rotate(" + degrees + "deg)";
+    var elem = document.getElementById(el);
+    if (navigator.userAgent.match("Chrome")) {
+    elem.style.WebkitTransform = "rotate(" + degrees + "deg)";
+    }
+    looper = setTimeout('rotateAnimation(\'' + el + '\',' + speed + ')', speed);
+    degrees++;
+    if (degrees > 359) {
+    degrees = 1;
+    }
+    document.getElementById("status").innerHTML = "rotate(" + degrees + "deg)";
     }
 
-    <
-    !--
-    function toggle_visibility(id) {
-      var e = document.getElementById(id);
-      if (e.style.display == 'block')
-        e.style.display = 'none';
-      else
-        e.style.display = 'block';
-    }
-    //-->
+          <!--
+          function toggle_visibility(id) {
+             var e = document.getElementById(id);
+             if(e.style.display == 'block')
+                e.style.display = 'none';
+             else
+                e.style.display = 'block';
+          }
+          //-->
+
   </script>
 </head>
 
@@ -56,60 +56,52 @@
 
 <body>
 
-  <h1 class="fade-in">The Frick Collection</h1>
-  <img class="welcomefade-in" src="../assets/welcome.rounded.png">
+<h1 class="Title">The Frick Collection</h1>
+<img class="welcome" src="../assets/welcome.rounded.png">
 
-  <p class="fancyfade-in"> SCROLL TO BEGIN EXPLORING </p>
+<p class= "fancy"> SCROLL TO BEGIN EXPLORING </p>
 
-  <!--icons start -->
+<!--icons start -->
 
-  <div id="popup-box1" class="popup-position">
+<div id="popup-box1" class="popup-position">
     <div id="popup-wrapper">
-      <div id="popup-container">
-        <h3>ABOUT THE MUSEUM</h3>
-        <p>The Frick is known for its distinguished Old Master paintings and outstanding examples of European sculpture and decorative arts.</p>
-        <p>The collection was assembled by the Pittsburgh industrialist Henry Clay Frick (1849–1919) and is housed in his former residence on Fifth Avenue. One of New York City’s few remaining Gilded Age mansions, it provides a tranquil environment
-          for visitors to experience masterpieces by artists such as Bellini, Rembrandt, Vermeer, Gainsborough, Goya, and Whistler. The museum opened in 1935 and has continued to acquire works of art since Mr. Frick’s death.</p>
-        <p><img href="javascript:void(0)" onclick"toggle_visibility('popup-box1');"></a></p>
-      </div>
-      <!--popup container end -->
+        <div id="popup-container">
+          <h3>ABOUT THE MUSEUM</h3>
+            <p>The Frick is known for its distinguished Old Master paintings and outstanding examples of European sculpture and decorative arts.</p>
+            <p>The collection was assembled by the Pittsburgh industrialist Henry Clay Frick (1849–1919) and is housed in his former residence on Fifth Avenue. One of New York City’s few remaining Gilded Age mansions, it provides a tranquil environment for visitors to experience masterpieces by artists such as Bellini, Rembrandt, Vermeer, Gainsborough, Goya, and Whistler. The museum opened in 1935 and has continued to acquire works of art since Mr. Frick’s death.</p>
+            <p><img href="javascript:void(0)" onclick"toggle_visibility('popup-box1');"></a></p>
+        </div> <!--popup container end -->
     </div> <!-- popup wrapper popup end -->
-  </div> <!-- pop up box 1 end -->
+</div> <!-- pop up box 1 end -->
 
-  <div id="wrapper">
-    <p> <img id="icon1" src="../assets/abouticon.png" onclick="toggle_visibility('popup-box1');"> </p>
-    <script>
-      rotateAnimation("icon1", 40);
-    </script>
+<div id="wrapper">
+<p> <img id="icon1" src="../assets/abouticon.png" onclick="toggle_visibility('popup-box1');"> </p>
+<script>rotateAnimation("icon1", 40);</script>
 
 
-    <div id="popup-box2" class="popup-position2">
-      <div id="popup-wrapper">
+<div id="popup-box2" class="popup-position2">
+    <div id="popup-wrapper">
         <div id="popup-container2">
           <h3>HOW TO:</h3>
-          <p>Click the room names found on th map below to enter each room. Once you're in each room, you'll see all my favorite pieces on display. Scroll to the bottom of each room page to learn more about the room. </p>
-          <p><a href="javascript:void(0)" onclick"toggle_visibility('popup-box2');"></a>Enjoy exploring!</p>
-        </div>
-        <!--popup container end -->
-      </div> <!-- popup wrapper popup end -->
-    </div> <!-- pop up box 1 end -->
+            <p>Click the room names found on th map below to enter each room. Once you're in each room, you'll see all my favorite pieces on display. Scroll to the bottom of each room page to learn more about the room. </p>
+            <p><a href="javascript:void(0)" onclick"toggle_visibility('popup-box2');"></a>Enjoy exploring!</p>
+        </div> <!--popup container end -->
+    </div> <!-- popup wrapper popup end -->
+</div> <!-- pop up box 1 end -->
 
-    <p> <img id="icon2" src="../assets/staricon.png" onclick="toggle_visibility('popup-box2');"></p>
-    <script>
-      rotateAnimation("icon2", 40);
-    </script>
+<p> <img id="icon2" src="../assets/staricon.png" onclick="toggle_visibility('popup-box2');"></p>
+<script>rotateAnimation("icon2", 40);</script>
 
 
-  </div>
-  <!--wrapper end -->
+</div> <!--wrapper end -->
 
 
-  <p id="clickclick">click me!</p>
-  <!--icons end -->
+<p id="clickclick">click me!</p>
+<!--icons end -->
 
-  <!--responsive map-->
+<!--responsive map-->
 
-  <code>
+<code>
 
     <p><a class="ex4" href="../projects/boucher.html">Boucher Room</a></p>
     <p><a class="ex5" href="../projects/fragonard.html">Fragonard Room</a></p>
@@ -126,9 +118,9 @@
     <img class="GardenCourt" src="../assets/GardenCourt.png">
     <img class="Centerpiece3" src="../assets/centerpiece3.png">
 
-  </code>
+</code>
 
-  <p class="Ending"><a href="../projects/pov.html"> Back to Top ^</a></p>
+<p class= "Ending"><a href="../projects/pov.html"> Back to Top ^</a></p>
 
 
 
