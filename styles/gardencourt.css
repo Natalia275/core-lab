@@ -1,0 +1,85 @@
+body {
+  background: #F5F3EC;
+  margin: 15px;
+  border: 4px double #000000;
+  height: 1300px;
+}
+
+.roomtitle {
+  font-family: orpheuspro, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 50px;
+  position: absolute;
+  top: 48px;
+  left: 583px;
+}
+
+#pic1 {
+  position: absolute;
+  top: 180px;
+  left: 100px;
+  width: 360px;
+  height: auto;
+}
+
+#pic2 {
+  position: absolute;
+  top: 700px;
+  right: 130px;
+  width: 350px;
+  height: auto;
+}
+
+#pic3 {
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 360px;
+  height: auto;
+}
+
+#pic4 {
+  position: absolute;
+  top: 400px;
+  left: 540px;
+  width: 340px;
+  height: auto;
+}
+
+#info {
+  position: absolute;
+  top: 300px;
+  right: 100px;
+  width: 400px;
+  height: auto;
+  font-family: orpheuspro, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 21px;
+}
+
+h4 {
+  font-family: orpheuspro, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 35px;
+  position: absolute;
+  top: 230px;
+  right: 310px;
+}
+
+#backtomap {
+  font-family: orpheuspro, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+  position: absolute;
+  top: 1165px;
+  right: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}

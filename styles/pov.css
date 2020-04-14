@@ -1,20 +1,74 @@
-
-body{
+body {
   background-image: url(../assets/fricksmooth2.png);
   margin: 15px;
   border: 4px double #000000;
   height: 8600px;
 }
 
-.welcome{
+.welcomefade-in {
   width: 170px;
   height: auto;
   position: absolute;
   top: 30px;
   left: 625px;
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
 }
 
-.star{
+@keyframes welcomefade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes welcomefade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes welcomefade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes welcomefade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes welcomefade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.star {
   width: 30px;
   height: auto;
   position: absolute;
@@ -22,7 +76,7 @@ body{
   left: 200px;
 }
 
-#icon1{
+#icon1 {
   width: 85px;
   height: auto;
   position: absolute;
@@ -31,33 +85,33 @@ body{
   cursor: pointer;
 }
 
-.popup-position{
+.popup-position {
   position: fixed;
   top: 0px;
   left: 0px;
-  background-color: rgba(245,243,236,0.7) ;
+  background-color: rgba(245, 243, 236, 0.7);
   width: 100%;
   height: 100%;
   display: none;
 }
 
-.popup-position2{
+.popup-position2 {
   position: fixed;
   top: 0px;
   left: 0px;
-  background-color: rgba(245,243,236,0.7) ;
+  background-color: rgba(245, 243, 236, 0.7);
   width: 100%;
   height: 100%;
   display: none;
 }
 
-#popup-wrapper{
+#popup-wrapper {
   width: 500px;
   margin: 70px auto;
   text-align: left;
 }
 
-#popup-container{
+#popup-container {
   background-color: #F5F3EC;
   border: 1px solid black;
   padding: 50px;
@@ -74,7 +128,7 @@ body{
   line-height: 1.5;
 }
 
-#popup-container2{
+#popup-container2 {
   background-color: #F2C97D;
   border: 1px solid black;
   padding: 30px;
@@ -91,15 +145,15 @@ body{
   line-height: 1.5;
 }
 
-h3{
-    text-align: center;
-    font-family: titling-gothic-fb-extended, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    padding-bottom: 10px;
+h3 {
+  text-align: center;
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 10px;
 }
 
-#clickclick{
+#clickclick {
   font-family: orpheuspro, serif;
   font-weight: 300;
   font-style: italic;
@@ -110,13 +164,13 @@ h3{
   transform: rotate(-10deg);
 }
 
-#wrapper{
+#wrapper {
   width: 960px;
   margin: 40px auto;
   text-align: left;
 }
 
-#icon2{
+#icon2 {
   width: 80px;
   height: auto;
   position: absolute;
@@ -125,28 +179,137 @@ h3{
   cursor: pointer;
 }
 
-
-.Title{
-font-family: orpheuspro, serif;
-font-weight: 300;
-font-style: italic;
-font-size: 115px;
-position: absolute;
-top: 270px;
-left: 290px;
+.fade-in {
+  font-family: orpheuspro, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 115px;
+  position: absolute;
+  top: 270px;
+  left: 290px;
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
 }
 
-.fancy{
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fancyfade-in {
   font-family: titling-gothic-fb-extended, sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 12px;
-  position:absolute;
+  position: absolute;
   left: 550px;
   top: 750px;
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
 }
 
-.MapPart1{
+@keyframes fancyfade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fancyfade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fancyfade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fancyfade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fancyfade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.MapPart1 {
   position: absolute;
   top: 850px;
   left: 85px;
@@ -154,7 +317,7 @@ left: 290px;
   height: auto;
 }
 
-.ex4{
+.ex4 {
   font-family: orpheuspro, serif;
   font-weight: 300;
   font-style: italic;
@@ -167,7 +330,7 @@ left: 290px;
   z-index: 5;
 }
 
-a.ex4:hover,a.ex4:active{
+a.ex4:hover, a.ex4:active {
   font-family: titling-gothic-fb-extended, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -175,7 +338,7 @@ a.ex4:hover,a.ex4:active{
   text-decoration: none;
 }
 
-.ex5{
+.ex5 {
   font-family: orpheuspro, serif;
   font-weight: 300;
   font-style: italic;
@@ -185,10 +348,10 @@ a.ex4:hover,a.ex4:active{
   left: 100px;
   color: black;
   text-decoration: none;
-    z-index: 5;
+  z-index: 5;
 }
 
-a.ex5:hover,a.ex5:active {
+a.ex5:hover, a.ex5:active {
   font-family: titling-gothic-fb-extended, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -196,7 +359,7 @@ a.ex5:hover,a.ex5:active {
   text-decoration: none;
 }
 
-.Centerpiece1{
+.Centerpiece1 {
   position: absolute;
   top: 2900px;
   left: 220px;
@@ -204,7 +367,7 @@ a.ex5:hover,a.ex5:active {
   height: auto;
 }
 
-.WestGallery{
+.WestGallery {
   position: absolute;
   top: 3640px;
   left: 100px;
@@ -212,7 +375,7 @@ a.ex5:hover,a.ex5:active {
   height: auto;
 }
 
-.ex6{
+.ex6 {
   font-family: orpheuspro, serif;
   font-weight: 300;
   font-style: italic;
@@ -222,10 +385,10 @@ a.ex5:hover,a.ex5:active {
   left: 800px;
   color: black;
   text-decoration: none;
-    z-index: 5;
+  z-index: 5;
 }
 
-a.ex6:hover,a.ex6:active {
+a.ex6:hover, a.ex6:active {
   font-family: titling-gothic-fb-extended, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -233,7 +396,7 @@ a.ex6:hover,a.ex6:active {
   text-decoration: none;
 }
 
-.TheLibrary{
+.TheLibrary {
   position: absolute;
   top: 4700px;
   left: 180px;
@@ -241,7 +404,7 @@ a.ex6:hover,a.ex6:active {
   height: auto;
 }
 
-.ex7{
+.ex7 {
   font-family: orpheuspro, serif;
   font-weight: 300;
   font-style: italic;
@@ -251,10 +414,10 @@ a.ex6:hover,a.ex6:active {
   left: 180px;
   color: black;
   text-decoration: none;
-    z-index: 5;
+  z-index: 5;
 }
 
-a.ex7:hover,a.ex7:active {
+a.ex7:hover, a.ex7:active {
   font-family: titling-gothic-fb-extended, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -262,7 +425,7 @@ a.ex7:hover,a.ex7:active {
   text-decoration: none;
 }
 
-.Centerpiece2{
+.Centerpiece2 {
   position: absolute;
   top: 5600px;
   left: 230px;
@@ -270,7 +433,7 @@ a.ex7:hover,a.ex7:active {
   height: auto;
 }
 
-.GardenCourt{
+.GardenCourt {
   position: absolute;
   top: 6290px;
   left: 120px;
@@ -279,7 +442,7 @@ a.ex7:hover,a.ex7:active {
   bottom-: 50px;
 }
 
-.ex8{
+.ex8 {
   font-family: orpheuspro, serif;
   font-weight: 300;
   font-style: italic;
@@ -289,10 +452,10 @@ a.ex7:hover,a.ex7:active {
   left: 800px;
   color: black;
   text-decoration: none;
-    z-index: 5;
+  z-index: 5;
 }
 
-a.ex8:hover,a.ex8:active {
+a.ex8:hover, a.ex8:active {
   font-family: titling-gothic-fb-extended, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -300,7 +463,7 @@ a.ex8:hover,a.ex8:active {
   text-decoration: none;
 }
 
-.Centerpiece3{
+.Centerpiece3 {
   position: absolute;
   top: 7650px;
   left: 230px;
@@ -308,7 +471,7 @@ a.ex8:hover,a.ex8:active {
   height: auto;
 }
 
-.Ending{
+.Ending {
   font-family: orpheuspro, serif;
   font-weight: 300;
   font-style: italic;
@@ -318,4 +481,317 @@ a.ex8:hover,a.ex8:active {
   left: 590px;
   color: black;
   text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+html {
+  font-size: 100%;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary {
+    width: 67%;
+  }
+
+  #secondary {
+    width: 30%;
+    margin-left: 3%;
+  }
+
+  .title {
+    font-size: 100px;
+  }
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary {
+    width: 100%;
+  }
+
+  #secondary {
+    width: 100%;
+    margin: 0;
+    border: none;
+  }
+
+  .fade-in {
+    font-size: 83px;
+    text-align: center;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+  }
+
+  body {
+    background-image: url(../assets/fricksmooth2.png);
+    max-height: 3800px;
+    max-width: auto;
+  }
+
+  #icon1 {
+    display: none;
+  }
+
+  #icon2 {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top: 450px;
+    right: 200px;
+    cursor: pointer;
+  }
+
+  #clickclick {
+    font-family: orpheuspro, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15.5px;
+    position: absolute;
+    top: 440px;
+    right: 150px;
+    transform: rotate(-10deg);
+  }
+
+  .welcomefade-in {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    left: 180px;
+  }
+
+  .fancyfade-in {
+    font-family: titling-gothic-fb-extended, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 9px;
+    position: absolute;
+    left: 150px;
+    top: 600px;
+  }
+
+  .MapPart1 {
+    position: absolute;
+    top: 650px;
+    left: 20px;
+    width: 450px;
+    height: auto;
+  }
+
+  .Centerpiece1 {
+    position: absolute;
+    top: 1384px;
+    left: 20px;
+    width: 450px;
+    height: auto;
+  }
+
+  .WestGallery {
+    position: absolute;
+    top: 1700px;
+    left: 25px;
+    width: 450px;
+    height: auto;
+  }
+
+  .TheLibrary {
+    position: absolute;
+    top: 800px;
+    left: 22px;
+    width: 450px;
+    height: auto;
+  }
+
+  .ex4 {
+    font-family: orpheuspro, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 842px;
+    left: 280px;
+    color: black;
+    text-decoration: none;
+    z-index: 5;
+  }
+
+  a.ex4:hover, a.ex4:active {
+    font-family: titling-gothic-fb-extended, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .ex5 {
+    font-family: orpheuspro, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 1133px;
+    left: 40px;
+    color: black;
+    text-decoration: none;
+    z-index: 5;
+  }
+
+  a.ex5:hover, a.ex5:active {
+    font-family: titling-gothic-fb-extended, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .ex6 {
+    font-family: orpheuspro, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 1900px;
+    left: 260px;
+    color: black;
+    text-decoration: none;
+    z-index: 5;
+  }
+
+  a.ex6:hover, a.ex6:active {
+    font-family: titling-gothic-fb-extended, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .TheLibrary {
+    position: absolute;
+    top: 2100px;
+    left: 23px;
+    width: 450px;
+    height: auto;
+  }
+
+  .ex7 {
+    font-family: orpheuspro, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 2180px;
+    left: 32px;
+    color: black;
+    text-decoration: none;
+    z-index: 5;
+  }
+
+  a.ex7:hover, a.ex7:active {
+    font-family: titling-gothic-fb-extended, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .Centerpiece2 {
+    position: absolute;
+    top: 2450px;
+    left: 25px;
+    width: 450px;
+    height: auto;
+  }
+
+  .GardenCourt {
+    position: absolute;
+    top: 2800px;
+    left: 26px;
+    width: 450px;
+    height: auto;
+    bottom-: 50px;
+  }
+
+  .ex8 {
+    font-family: orpheuspro, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 3020px;
+    left: 290px;
+    color: black;
+    text-decoration: none;
+    z-index: 5;
+  }
+
+  a.ex8:hover, a.ex8:active {
+    font-family: titling-gothic-fb-extended, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 40px;
+    text-decoration: none;
+  }
+
+  .Centerpiece3 {
+    position: absolute;
+    top: 3350px;
+    left: 16px;
+    width: 460px;
+    height: auto;
+  }
+
+  .Ending {
+    font-family: orpheuspro, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    position: absolute;
+    top: 3685px;
+    left: 195px;
+    color: black;
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .popup-position2 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(245, 243, 236, 0.7);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  #popup-container2 {
+    background-color: #F2C97D;
+    border: 1px solid black;
+    padding: 20px;
+    font-family: titling-gothic-fb-extended, sans-serif;
+    font-weight: 250;
+    font-style: regular;
+    font-size: 10px;
+    position: absolute;
+    top: 220px;
+    left: 90px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    line-height: 1.5;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
