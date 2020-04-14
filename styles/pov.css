@@ -11,8 +11,58 @@ body {
   position: absolute;
   top: 30px;
   left: 625px;
+
+  animation: fadeIn ease 5s;
+-webkit-animation: fadeIn ease 5s;
+-moz-animation: fadeIn ease 5s;
+-o-animation: fadeIn ease 5s;
+-ms-animation: fadeIn ease 5s;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
 
 .star {
   width: 30px;
@@ -29,6 +79,12 @@ body {
   top: 200px;
   left: 180px;
   cursor: pointer;
+
+  animation: fadeIn ease 3s;
+-webkit-animation: fadeIn ease 3s;
+-moz-animation: fadeIn ease 3s;
+-o-animation: fadeIn ease 3s;
+-ms-animation: fadeIn ease 3s;
 }
 
 .popup-position {
@@ -108,6 +164,12 @@ h3 {
   top: 600px;
   right: 150px;
   transform: rotate(-10deg);
+
+  animation: fadeIn ease 3s;
+-webkit-animation: fadeIn ease 3s;
+-moz-animation: fadeIn ease 3s;
+-o-animation: fadeIn ease 3s;
+-ms-animation: fadeIn ease 3s;
 }
 
 #wrapper {
@@ -123,6 +185,12 @@ h3 {
   top: 600px;
   right: 200px;
   cursor: pointer;
+
+  animation: fadeIn ease 3s;
+-webkit-animation: fadeIn ease 3s;
+-moz-animation: fadeIn ease 3s;
+-o-animation: fadeIn ease 3s;
+-ms-animation: fadeIn ease 3s;
 }
 
 .Title {
@@ -134,6 +202,12 @@ h3 {
   top: 270px;
   left: 290px;
 
+  animation: fadeIn ease 6s;
+-webkit-animation: fadeIn ease 6s;
+-moz-animation: fadeIn ease 6s;
+-o-animation: fadeIn ease 6s;
+-ms-animation: fadeIn ease 6s;
+
 }
 
 .fancy {
@@ -144,11 +218,12 @@ h3 {
   position: absolute;
   left: 550px;
   top: 750px;
+
   animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
+-webkit-animation: fadeIn ease 5s;
+-moz-animation: fadeIn ease 5s;
+-o-animation: fadeIn ease 5s;
+-ms-animation: fadeIn ease 5s;
 }
 
 
