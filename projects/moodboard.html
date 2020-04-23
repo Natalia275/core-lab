@@ -1,0 +1,107 @@
+<!-- This is how to make a comment. Comments are visible in the code, but is not rendered to the browser. Index.html is the "home" page of websites. Welcome home. -->
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- The "meta" content. This shows up on searches. Update with your information -->
+  <title> Natalia </title>
+  <meta name="description" content="Core Lab Interaction">
+  <meta name="author" content="Update With Your Name">
+
+  <!-- The favicon is an avatar. Update this file with your own 96x96 png ! -->
+  <link rel="shortcut icon" type="image/png" href="../assets/povfavicon.png" />
+
+  <!-- This is where the style CSS files live. -->
+  <!-- Hierchy and order of links matter! "reset.css" goes before "style.css" -->
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/moodboard.css">
+
+  <link rel="stylesheet" href="https://use.typekit.net/maq4sac.css">
+  <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+
+  <script>
+    var looper;
+    var degrees = 0;
+
+    function rotateAnimation(el, speed) {
+    var elem = document.getElementById(el);
+    if (navigator.userAgent.match("Chrome")) {
+    elem.style.WebkitTransform = "rotate(" + degrees + "deg)";
+    }
+    looper = setTimeout('rotateAnimation(\'' + el + '\',' + speed + ')', speed);
+    degrees++;
+    if (degrees > 359) {
+    degrees = 1;
+    }
+    document.getElementById("status").innerHTML = "rotate(" + degrees + "deg)";
+    }
+
+          <!--
+          function toggle_visibility(id) {
+             var e = document.getElementById(id);
+             if(e.style.display == 'block')
+                e.style.display = 'none';
+             else
+                e.style.display = 'block';
+          }
+          //-->
+
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="switch">
+      <div class="switch-button">
+      </div>
+    </div>
+      <div >
+        <h1 class="title draggable"> Moodboard </h1>
+      </div>
+    <div class="playlist draggable">
+        <iframe src="https://open.spotify.com/embed/playlist/6uLjktuLd0sgC3YVa25BLG" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+
+
+    <img class="img1 draggable" src="../assets/tame12.jpg">
+    <img class="img2 draggable"src="../assets/tame8.jpg">
+    <img class="img3 draggable"src="../assets/tame7.jpg">
+    <img class="img4 draggable" src="../assets/tame22.png">
+    <img class="img5 draggable"src="../assets/lonerism.jpg">
+    <img class="img6 draggable"src="../assets/tame19.png">
+    <img class="img7 draggable"src="../assets/tame2.jpg">
+    <img class="img8 draggable"src="../assets/tame23.jpg">
+    <img class="img9 draggable"src="../assets/tame20.png">
+
+
+
+
+    <div class="information draggable">
+
+      <img class="kevin" src="../assets/kevin14.jpg"
+      <p> hi everyone, welcome to my moodboard! Enjoy these pictures of Tame Impala, a.k.a <span class="hover"> Kevin Parker.</span> ...shoutout to you Kevin. love ya</p>
+      <p class="clickme"> click me + </p>
+      <p class="extra-info hide"> Company's okay, solitude is bliss</p>
+      </div>
+    <div class="yellow-circle draggable"></div>
+
+    <img class="spin draggable" id="record" src="../assets/record.png">
+    <script>rotateAnimation("record", 20);</script>
+
+  </div>
+
+
+<!--jquery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
+  </script>
+
+  <!--jquery UI library -->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script src="../projects/script.js"></script>
+
+</body>
+</html>

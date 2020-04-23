@@ -1,0 +1,228 @@
+body{
+  margin:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+  padding: 20px;
+  background: #f2f2f2;
+}
+
+.container.darkmode{
+  background-image: url(../assets/tame10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+
+.title{
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  width: 300px;
+  height: 0 auto;
+}
+
+h1{
+  position: fixed;
+  top: 2%;
+  left: 640px;
+  color: #000000;
+}
+
+.information{
+  width: 400px;
+  height: auto;
+  border: 1px solid black;
+  background: #7BC5F6;
+  position: fixed;
+  top: 65%;
+  right: 6%;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+  font-size: 21px;
+  text-align: center;
+}
+
+.yellow-circle{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background: #EFBE46;
+  position: fixed;
+  top: 10%;
+  left: 60%;
+  display: none;
+}
+
+.container.darkmode .switch {
+  border: 3px solid white;
+}
+
+.switch{
+  width: 50px;
+  height: 30px;
+  border: 3px solid black;
+  position: relative;
+}
+
+.container.darkmode .switch-button {
+  background: white;
+  right: 0px;
+  left: auto;
+}
+
+.switch-button{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: black;
+}
+
+.img1{
+  position: fixed;
+  top: 45%;
+  left: 40%;
+  width: 290px;
+  height: auto;
+  border: 1px solid black;
+}
+
+.img2{
+  position: fixed;
+  top: 14%;
+  right: 30%;
+  width: 290px;
+  height: auto;
+  border: 1px solid black;
+}
+
+.img3{
+  position: fixed;
+  top: 55%;
+  left: 65%;
+  width: 280px;
+  height: auto;
+  border: 1px solid black;
+}
+
+.img4{
+  position: fixed;
+  top: 2%;
+  left: 75%;
+  width: 250px;
+  height: auto;
+  border: 1px solid black;
+}
+
+.img5{
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  width: 230px;
+  height: auto;
+  border: 1px solid black;
+}
+
+.img6{
+  position: fixed;
+  top: 60%;
+  left: 15%;
+  width: 270px;
+  height: auto;
+  border: 1px solid black;
+}
+
+.img7{
+  position: fixed;
+  top: 20%;
+  left: 25%;
+  width: 270px;
+  height: auto;
+  border: 1px solid black;
+}
+
+.img8{
+  position: fixed;
+  top: 45%;
+  right: 10%;
+  width: 200px;
+  height: auto;
+  border: 1px solid black;
+}
+
+.img9{
+  position: fixed;
+  top: 17%;
+  left: 40%;
+  width: 200px;
+  height: auto;
+  border: 1px solid black;
+}
+
+.playlist{
+  position: fixed;
+  top: 12%;
+  left: 5%;
+  width: 340px;
+  background-color: #E975AD;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.hover{
+  text-decoration: underline;
+}
+
+.draggable {
+  cursor: move;
+}
+
+.container.darkmode h1{
+  filter: invert(100%);
+}
+
+.kevin {
+  width: 130px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: none;
+}
+
+.extra-info{
+  color: white;
+}
+
+.hide{
+  display: none;
+}
+
+#record{
+  width: 250px;
+  height: auto;
+  position: fixed;
+  top: 15%;
+  right: 15%;
+
+  animation: fadeIn ease 3s;
+-webkit-animation: fadeIn ease 3s;
+-moz-animation: fadeIn ease 3s;
+-o-animation: fadeIn ease 3s;
+-ms-animation: fadeIn ease 3s;
+}
